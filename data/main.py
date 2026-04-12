@@ -447,10 +447,10 @@ elif page == "hvem":
             <div class="person-card">
                 <div class="person-photo-placeholder">M</div>
                 <div class="person-info">
-                    <h3>Mikkel</h3>
+                    <h3>Mathias</h3>
                     <div class="person-title">Grunnlegger & Daglig leder</div>
                     <p>
-                        Mikkel har alltid hatt et brennende engasjement for mennesker i sårbare situasjoner.
+                        Mathias har alltid hatt et brennende engasjement for mennesker i sårbare situasjoner.
                         Med bakgrunn fra helsefag og flere år i frivillig omsorgsarbeid, startet han SENIOR OMSORG
                         ut fra en enkel overbevisning: alle fortjener omsorg tilpasset akkurat dem.
                         Han leder teamet med varme, tydelig retning og et ekte ønske om å gjøre hverdagen
