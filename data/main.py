@@ -1,10 +1,17 @@
 import streamlit as st
+import base64
+from pathlib import Path
 
 st.set_page_config(page_title="SENIOR OMSORG", layout="wide")
+
+def get_img_base64(path):
+    return base64.b64encode(Path(path).read_bytes()).decode()
 
 if "page" not in st.session_state:
     st.session_state.page = "tjenester"
 page = st.session_state.page
+
+_hero_img = get_img_base64(Path(__file__).parent.parent / "assets" / "hender.webp")
 
 st.markdown(
     """
@@ -260,6 +267,18 @@ st.markdown(
     }
     </style>
     """,
+    unsafe_allow_html=True,
+)
+
+st.markdown(
+    f"""<style>
+    .hero {{
+        background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)),
+                          url("data:image/webp;base64,{_hero_img}");
+        background-size: cover;
+        background-position: center;
+    }}
+    </style>""",
     unsafe_allow_html=True,
 )
 
