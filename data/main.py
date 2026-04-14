@@ -468,10 +468,10 @@ elif page == "hvem":
             <div class="person-card">
                 <div class="person-photo-placeholder">M</div>
                 <div class="person-info">
-                    <h3>Mathias</h3>
+                    <h3>Mikkel</h3>
                     <div class="person-title">Fagansvarlig & Besøksvenn</div>
                     <p>
-                        Mathias er hjørnesteinen i det faglige arbeidet hos SENIOR OMSORG. Med utdanning innen
+                        Mikkel er hjørnesteinen i det faglige arbeidet hos SENIOR OMSORG. Med utdanning innen
                         sykepleie og en naturlig evne til å skape trygghet, sørger han for at alle tjenester
                         holder høyeste standard. Han er selv aktiv besøksvenn og kjenner jobben innenfra –
                         det lille ekstra som gjør en stor forskjell for den som trenger det mest.
