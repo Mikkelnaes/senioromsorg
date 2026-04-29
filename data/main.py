@@ -1082,6 +1082,41 @@ elif page == "hvem":
         unsafe_allow_html=True,
     )
 
+    st.markdown(
+        """
+        <section class="section" style="padding-bottom:0;">
+          <div class="section-wrap">
+            <span class="eyebrow">Hvorfor vi startet Senior Omsorg</span>
+            <div style="max-width:820px;margin-top:28px;">
+              <p style="font-size:17px;line-height:1.75;color:var(--ink-soft);margin:0 0 22px;">
+                Mathias Kielland og Mikkel Næs er utdannet innenfor markedsføring og økonomi og har bakgrunn fra bank/IT,
+                men vår viktigste erfaring startet allerede i studietiden på et lokalt eldresenter hvor vi jobbet.
+                Der ble frøet sådd for det som i dag er Senior Omsorg.
+              </p>
+              <p style="font-size:17px;line-height:1.75;color:var(--ink-soft);margin:0 0 22px;">
+                Etter flere år i DNB og Forte Digital valgte vi å omsette vårt personlige engasjement til handling.
+                Vi ser på eldreomsorg som et viktig samfunnsoppdrag, og har dedikert tiden vår til å lære bransjen fra innsiden,
+                senest gjennom arbeid i Senior Support og på bo og behandlingssenter.
+                Vår visjon er enkel: Å bruke vår kompetanse og vårt engasjement til å hjelpe eldre med å mestre hverdagen,
+                samtidig som vi skaper øyeblikk som gir ekte glede og mening.
+              </p>
+              <p style="font-size:17px;line-height:1.75;color:var(--ink-soft);margin:0 0 22px;">
+                Vårt fokus er å finne gode løsninger for den enkelte senior, gjerne i samarbeid med pårørende.
+                Det kan være et stort ansvar å være pårørende og det er ofte behov for avlastning.
+              </p>
+              <p style="font-size:17px;line-height:1.75;color:var(--ink-soft);margin:0 0 8px;">
+                Vi hører gjerne fra deg om du er senior, eller pårørende til en senior.
+              </p>
+              <p style="font-family:'Fraunces',serif;font-size:22px;font-weight:300;font-style:italic;color:var(--accent);margin:24px 0 0;">
+                Sammen kan vi skape en mer verdig og meningsfull hverdag.
+              </p>
+            </div>
+          </div>
+        </section>
+        """,
+        unsafe_allow_html=True,
+    )
+
     st.markdown('<section class="section"><div class="section-wrap">', unsafe_allow_html=True)
     cols = st.columns(2, gap="large")
     for col, person in zip(cols, TEAM):
